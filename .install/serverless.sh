@@ -3,7 +3,7 @@
 set -e
 source ./.versions
 
-if ! type npm &> /dev/null ; then
+if ! type npm > /dev/null 2>&1 ; then
     echo "npm not install!"
     exit 1;
 fi  
