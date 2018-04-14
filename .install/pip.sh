@@ -7,6 +7,7 @@ echo
 echo "Installing pip..."
 echo
 
+yum -y install epel-release
 yum -y update
 yum -y install python-pip
 yum clean all 
