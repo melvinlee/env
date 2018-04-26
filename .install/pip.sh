@@ -3,14 +3,20 @@
 set -e
 source ./.versions
 
-echo
-echo "Installing pip..."
-echo
 
-yum -y install epel-release
-yum -y update
-yum -y install python-pip
-yum clean all 
+if ! type pip > /dev/null 2>&1; then
+	echo
+	echo "Installing pip..."
+	echo
+	apt-get install -y python-pip
+	apt-get clean
+fi
 
-pip install --upgrade pip
+echo
+echo "Upgrading Pip..."
+echo
+pip install --upgrade pip==9.0.3
+
+echo
 pip --version
+echo

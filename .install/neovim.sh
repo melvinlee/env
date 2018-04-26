@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 set -e
 source ./.versions
@@ -7,10 +7,11 @@ echo
 echo "Installing neovim..."
 echo
 
-yum -y install epel-release
-yum -y update
-curl -o /etc/yum.repos.d/dperson-neovim-epel-7.repo https://copr.fedorainfracloud.org/coprs/dperson/neovim/repo/epel-7/dperson-neovim-epel-7.repo 
-yum -y install neovim
-yum clean all
+apt-get install -y software-properties-common
+add-apt-repository ppa:neovim-ppa/stable
+apt-get update
+apt-get install -y neovim
 
+echo
 nvim --version
+echo

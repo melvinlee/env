@@ -3,5 +3,6 @@
 Dockerfile
 LICENSE
 .dockerignore
+.travis*
 
 README.md

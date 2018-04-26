@@ -7,7 +7,8 @@ echo
 echo "Installing node..."
 echo
 
-curl --silent --location https://rpm.nodesource.com/setup_9.x | bash -
-yum -y install nodejs
+curl -sL https://deb.nodesource.com/setup_10.x | bash -
+apt-get install -y nodejs
+apt-get clean
 
 node --version
