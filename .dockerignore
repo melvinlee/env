@@ -4,5 +4,6 @@ Dockerfile
 LICENSE
 .dockerignore
 .travis*
+.build*
 
 README.md
