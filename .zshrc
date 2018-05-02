@@ -22,3 +22,6 @@ prompt pure
 #
 # aliases
 alias vim=nvim
+alias g=git
+alias d=docker
+
