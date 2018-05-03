@@ -11,6 +11,7 @@ RUN .install/zsh.sh
 RUN .install/pure.sh
 RUN .install/neovim.sh
 RUN .install/node.sh
+RUN .install/go.sh
 
 RUN .install/serverless.sh
 RUN .install/pip.sh
