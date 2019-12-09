@@ -20,6 +20,7 @@ RUN .install/httpie.sh
 RUN .install/terraform.sh
 RUN .install/azurecli.sh
 RUN .install/helm.sh
+RUN .install/kubectl.sh
 
 USER melvin
 
