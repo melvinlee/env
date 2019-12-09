@@ -19,6 +19,7 @@ RUN .install/pip.sh
 RUN .install/httpie.sh
 RUN .install/terraform.sh
 RUN .install/azurecli.sh
+RUN .install/helm.sh
 
 USER melvin
 

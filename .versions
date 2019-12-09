@@ -1,3 +1,4 @@
 # version
 
 export TERRAFORM_VERSION=0.12.17
+export HELM_VERSION=v3.0.1
