@@ -13,10 +13,11 @@ RUN .install/neovim.sh
 RUN .install/node.sh
 RUN .install/go.sh
 
-RUN .install/serverless.sh
+#RUN .install/serverless.sh
 RUN .install/pip.sh
 #RUN .install/awscli.sh
 RUN .install/httpie.sh
+RUN .install/terraform.sh
 
 USER melvin
 

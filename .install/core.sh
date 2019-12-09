@@ -11,5 +11,6 @@ apt-get update && \
 apt-get install	-y curl \
 	wget \
 	openssh-client \
-	git
+	git \
+	unzip
 apt-get clean
