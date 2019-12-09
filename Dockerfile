@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:18.04
 
 RUN adduser --home /home/melvin melvin -shell /bin/zsh
 
@@ -18,6 +18,7 @@ RUN .install/pip.sh
 #RUN .install/awscli.sh
 RUN .install/httpie.sh
 RUN .install/terraform.sh
+RUN .install/azurecli.sh
 
 USER melvin
 
