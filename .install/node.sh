@@ -12,3 +12,5 @@ apt-get install -y nodejs
 apt-get clean
 
 node --version
+
+npm -v 
