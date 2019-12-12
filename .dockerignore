@@ -1,6 +1,6 @@
 .git
 
-Dockerfile
+Dockerfile*
 LICENSE
 .dockerignore
 .travis*
