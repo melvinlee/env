@@ -1,4 +1,4 @@
-# ENV [![Build Status](https://travis-ci.org/melvinlee/env.svg?branch=master)](https://travis-ci.org/melvinlee/env)
+# EVN ![Docker Image CI](https://github.com/melvinlee/env/workflows/Docker%20Image%20CI/badge.svg)
 
 My developer toolbox put into a Docker image so that I can run anywhere.
 
