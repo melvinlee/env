@@ -1,5 +1,4 @@
 # version
 
 export TERRAFORM_VERSION=0.12.17
-export HELM_VERSION=v3.0.1
 export KUBECTL_VERSION=v1.16.3
