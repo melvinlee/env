@@ -15,7 +15,7 @@ fi
 echo
 echo "Upgrading Pip..."
 echo
-pip install --upgrade pip==9.0.3
+pip install --upgrade pip==20.3.3
 
 echo
 pip --version
